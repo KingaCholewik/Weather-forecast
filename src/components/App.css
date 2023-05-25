@@ -1,0 +1,58 @@
+.app {
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+input {
+  line-height: 200%;
+  font-weight: bold;
+  padding: 0 5px;
+}
+input:active {
+  border: none;
+}
+button {
+  line-height: 200%;
+  padding: 1px 5px;
+  color: rgb(7, 7, 103);
+  background-color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: antiquewhite;
+}
+.forecast {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  font-weight: bold;
+}
+.timesOfDay {
+  display: flex;
+
+  gap: 10px;
+}
+.card {
+  border: 1px solid white;
+  text-align: center;
+  padding: 5px 5px;
+  flex-basis: 25%;
+}
+.card h3 {
+  line-height: 200%;
+}
+.card-details {
+  display: flex;
+  gap: 20px;
+}
+.card-details li {
+  list-style: none;
+  text-align: left;
+}
+.image {
+  font-size: 100px;
+}
